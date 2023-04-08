@@ -1,0 +1,39 @@
+.outterbox{
+    margin: 25px auto ;
+    width: 578px;
+    height: 512px;
+    display: block;  
+}
+.info{
+    margin-top: 40px;
+}
+.owners{
+    height: 50%;
+    display: flex;
+}
+.ownerImage img{
+    width:159px; 
+    height:159px;
+    border-radius: 112px;
+    object-fit: cover;
+    margin-right: 56px;
+}
+.coownerImage img{
+    width:159px; 
+    height:159px;
+    border-radius: 112px;
+    object-fit: cover;
+    margin-right: 56px;
+}
+.position{
+    font-family: RobotoBoldItalic;
+    font-size: 21px;
+    color: #EF767a;
+}
+.ownerInfo{
+    width: 363px;
+    height: 150px;
+    overflow: hidden;
+    font-family: LoraItalic;
+    font-size: 18px;
+}
