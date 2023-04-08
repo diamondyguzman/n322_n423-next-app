@@ -6,7 +6,7 @@ import HeroStyles from '../styles/Hero.module.css';
 import FooterStyles from '../styles/Footer.module.css';
 export default function App({ Component, pageProps }) {
   const router = useRouter();
-  console.log(router.pathname);
+  //console.log(router.pathname);
 
    function getLinkClassName(path){
     if(router.pathname === path){
@@ -39,7 +39,7 @@ export default function App({ Component, pageProps }) {
       <span className={NavbarStyles.logo}>The Soap Factory</span>
     </nav>
     
-    <header className={HeroStyles.hero }></header>
+    <header className={HeroStyles.hero}></header>
   
     <Component {...pageProps} />
 
