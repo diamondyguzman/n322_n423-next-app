@@ -4,6 +4,8 @@ import NavbarStyles from '../styles/Navbar.module.css';
 import { useRouter } from 'next/router';
 import HeroStyles from '../styles/Hero.module.css';
 import FooterStyles from '../styles/Footer.module.css';
+
+import Modal from '../components/Modal';
 export default function App({ Component, pageProps }) {
   const router = useRouter();
   //console.log(router.pathname);
@@ -45,7 +47,12 @@ export default function App({ Component, pageProps }) {
 
     <footer className={FooterStyles.footer}>
       <div>©The Soap Factory</div>
-      <div>Terms and Conditions</div>
+      <div>
+       
+        <Modal trigger='Terms and Conditions'>
+          Long List of terms and Conditions
+        </Modal>
+      </div>
     </footer>
   </>
   );
